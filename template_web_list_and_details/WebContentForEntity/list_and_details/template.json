@@ -4,7 +4,9 @@
     "image":"ui-for-entity-details.png",
     "sources":[{
         "name":"ui-for-entity-list-and-details.html",
-        "action":"generate"
+        "rootFolder":"WebContent",
+        "action":"generate",
+        "rename":"%s"
     }],
     "parameters":[{
         "name":"templateType",
